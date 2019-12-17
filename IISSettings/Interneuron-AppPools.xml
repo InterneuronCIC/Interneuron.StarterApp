@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>
+    <APPPOOL APPPOOL.NAME="Interneuron" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="Interneuron">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="Interneuron-SIS" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="Interneuron-SIS">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="autonomics" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="autonomics" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="eboards" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="eboards" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="IMAAudit" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="IMAAudit" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="inpatients" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="inpatients" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="mirthdynamicapi" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="mirthdynamicapi" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="outboundinterface" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="outboundinterface" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="siseboards" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="siseboards" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="studio" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="studio" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="synapsedynamicapi" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="synapsedynamicapi" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="terminus" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="terminus" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="terminusmoduleloader" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="terminusmoduleloader" autoStart="true" managedRuntimeVersion="v4.0">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+</appcmd>

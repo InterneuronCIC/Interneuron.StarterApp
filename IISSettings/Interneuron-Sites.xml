@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>    
+    <SITE SITE.NAME="Interneuron" SITE.ID="2" bindings="http/*:8084:,https/*:8085:" state="Started">
+        <site name="Interneuron" id="2" serverAutoStart="true">
+            <bindings>
+                <binding protocol="http" bindingInformation="*:8084:" />
+                <binding protocol="https" bindingInformation="*:8085:" sslFlags="0" />
+            </bindings>
+            <limits />
+            <logFile>
+                <customFields>
+                </customFields>
+            </logFile>
+            <traceFailedRequestsLogging />
+            <hsts />
+            <applicationDefaults />
+            <virtualDirectoryDefaults />
+            <ftpServer>
+                <connections />
+                <security>
+                    <dataChannelSecurity />
+                    <commandFiltering>
+                    </commandFiltering>
+                    <ssl />
+                    <sslClientCertificates />
+                    <authentication>
+                        <anonymousAuthentication />
+                        <basicAuthentication />
+                        <clientCertAuthentication />
+                        <customAuthentication>
+                            <providers>
+                            </providers>
+                        </customAuthentication>
+                    </authentication>
+                    <customAuthorization>
+                        <provider />
+                    </customAuthorization>
+                </security>
+                <customFeatures>
+                    <providers>
+                    </providers>
+                </customFeatures>
+                <messages />
+                <fileHandling />
+                <firewallSupport />
+                <userIsolation>
+                    <activeDirectory />
+                </userIsolation>
+                <directoryBrowse />
+                <logFile />
+            </ftpServer>
+            <application path="/" applicationPool="Interneuron">
+                <virtualDirectoryDefaults />
+                <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot\Interneuron" />
+            </application>
+            <application path="/autonomics" applicationPool="autonomics">
+                <virtualDirectoryDefaults />
+                <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot\Interneuron\autonomics" />
+            </application>
+            <application path="/studio" applicationPool="studio">
+                <virtualDirectoryDefaults />
+                <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot\Interneuron\studio" />
+            </application>
+            <application path="/synapsedynamicapi" applicationPool="synapsedynamicapi">
+                <virtualDirectoryDefaults />
+                <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot\Interneuron\synapsedynamicapi" />
+            </application>
+            <application path="/terminus" applicationPool="terminus">
+                <virtualDirectoryDefaults />
+                <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot\Interneuron\terminus" />
+            </application>
+            <application path="/terminusmoduleloader" applicationPool="terminusmoduleloader">
+                <virtualDirectoryDefaults />
+                <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot\Interneuron\terminusmoduleloader" />
+            </application>
+        </site>
+    </SITE>
+    <SITE SITE.NAME="InterneuronSIS" SITE.ID="3" bindings="https/*:5000:" state="Started">
+        <site name="InterneuronSIS" id="3" serverAutoStart="true">
+            <bindings>
+                <binding protocol="https" bindingInformation="*:5000:" sslFlags="0" />
+            </bindings>
+            <limits />
+            <logFile>
+                <customFields>
+                </customFields>
+            </logFile>
+            <traceFailedRequestsLogging />
+            <hsts enabled="false" includeSubDomains="true" preload="true" redirectHttpToHttps="true" />
+            <applicationDefaults />
+            <virtualDirectoryDefaults />
+            <ftpServer>
+                <connections />
+                <security>
+                    <dataChannelSecurity />
+                    <commandFiltering>
+                    </commandFiltering>
+                    <ssl />
+                    <sslClientCertificates />
+                    <authentication>
+                        <anonymousAuthentication />
+                        <basicAuthentication />
+                        <clientCertAuthentication />
+                        <customAuthentication>
+                            <providers>
+                            </providers>
+                        </customAuthentication>
+                    </authentication>
+                    <customAuthorization>
+                        <provider />
+                    </customAuthorization>
+                </security>
+                <customFeatures>
+                    <providers>
+                    </providers>
+                </customFeatures>
+                <messages />
+                <fileHandling />
+                <firewallSupport />
+                <userIsolation>
+                    <activeDirectory />
+                </userIsolation>
+                <directoryBrowse />
+                <logFile />
+            </ftpServer>
+            <application path="/" applicationPool="Interneuron-SIS">
+                <virtualDirectoryDefaults />
+                <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot\Interneuron\SynapseIdentityServer" />
+            </application>
+        </site>
+    </SITE>
+</appcmd>

@@ -1,0 +1,7 @@
+{
+  "uris": {
+    "baseuri": "https://localhost:8085/synapsedynamicapi",
+    "autonomicsbaseuri": "https://localhost:8085/autonomics/Autonomic"
+  },
+  "enablelogging": false
+}
